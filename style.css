@@ -5,8 +5,8 @@ body, html {
 .avatar-bkg-blur {
   background-image: url("1618269474870.jpg");
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(14px);
+  -webkit-filter: blur(14px);
 
   /* Full height */
   height: 100%;
