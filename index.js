@@ -18,14 +18,15 @@ window.onload = function getDate() {
     var daysDifference = timeDifference / (1000 * 3600 * 24);
     console.log("Days Difference: " + daysDifference);
 
-    var percentComplete = 100 - (daysDifference/365 * 100);
+    var temp = 100 - (daysDifference/365 * 100);
+    var percentComplete = Math.round(temp);
     console.log("Percent Complete: " + percentComplete);
 
 
     if(year == 2021) {
         var progress = document.getElementById("bar");
         console.log(progress);
-        progress.style.width = Math.round(percentComplete) + "%";
+        progress.style.width = percentComplete + "%";
         document.getElementById("launchday").innerText = String(daysDifference);
     }
 }
