@@ -15,11 +15,10 @@ window.onload = function getDate() {
     var timeDifference = new Date(launchDay).getTime() - new Date(today).getTime();
     console.log("Time Difference: " + timeDifference);
 
-    var daysDifference = timeDifference / (1000 * 3600 * 24);
+    var daysDifference = Math.round(timeDifference / (1000 * 3600 * 24));
     console.log("Days Difference: " + daysDifference);
 
-    var temp = 100 - (daysDifference/365 * 100);
-    var percentComplete = Math.round(temp);
+    var percentComplete = 100 - (daysDifference/365 * 100);
     console.log("Percent Complete: " + percentComplete);
 
 
