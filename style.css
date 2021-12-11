@@ -1,6 +1,7 @@
 body, html {
   height: 100vh;
-
+  justify-content: center;
+  align-content: center;
 }
 
 body {
