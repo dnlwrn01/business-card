@@ -26,6 +26,7 @@ a {
 
 .bio-card {
   backdrop-filter: blur(5px);
+  filter: blur(5px);
   z-index: 5;
 }
 
@@ -62,6 +63,7 @@ a {
   height: 100%;
   outline: none;
   backdrop-filter: blur(5px);
+  filter: blur(5px);
   z-index: 5;
   cursor: pointer;
   position: relative;
