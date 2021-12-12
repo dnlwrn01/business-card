@@ -34,8 +34,10 @@ window.onload = function getDate() {
 	var ctx = canvas.getContext("2d");
 	
 	//canvas dimensions
-	var W = "100vw";
-	var H = "100vh";
+	var W = window.innerWidth;
+    console.log("width:" + W);
+	var H = window.innerHeight;
+    console.log("height:" + H);
 	canvas.width = W;
 	canvas.height = H;
     
