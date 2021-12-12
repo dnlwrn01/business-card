@@ -38,7 +38,7 @@ window.onload = function getDate() {
 	var W = window.innerWidth;
 	var H = htmlElement.clientHeight;
 	canvas.width = W;
-	canvas.height = H;
+	canvas.height = (H * 2);
     
 	
 	//snowflake particles
