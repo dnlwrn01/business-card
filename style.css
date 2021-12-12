@@ -87,3 +87,13 @@ a {
   height: 20px;
   border-radius: 6px;
 }
+
+.confettiCanvas{
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+    background: black;
+  }
