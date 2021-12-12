@@ -29,7 +29,6 @@ window.onload = function getDate() {
         document.getElementById("launchday").innerText = String(daysDifference);
     }
 
-    function getViewport() {
 
     var viewPortWidth;
     var viewPortHeight;
@@ -52,8 +51,6 @@ window.onload = function getDate() {
     else {
         viewPortWidth = document.getElementsByTagName('body')[0].clientWidth,
         viewPortHeight = document.getElementsByTagName('body')[0].clientHeight
-    }
-    return [viewPortWidth, viewPortHeight];
     }
 
 	//canvas init
