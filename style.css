@@ -87,11 +87,3 @@ a {
   height: 20px;
   border-radius: 6px;
 }
-
-.top-shadow {
-  box-shadow: 15px 0px 0px 15px rgba(0, 0, 0, 0.8)
-}
-
-.bottom-shadow {
-  box-shadow: 15px 0px 0px 15px rgba(0, 0, 0, 0.8)
-}
