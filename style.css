@@ -24,8 +24,9 @@ a {
   }
 }
 
-.bio_card {
+.bio-card {
   backdrop-filter: blur(50px);
+  z-index: 5;
 }
 
 @keyframes slidebg {
