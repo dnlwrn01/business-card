@@ -38,9 +38,10 @@ window.onload = function(){
 	//canvas dimensions
 	var W = window.innerWidth;
 	var H = window.innerHeight;
+    canvas.fillStyle = 'rgba(0,0,0,0.0)';
 	canvas.width = W;
 	canvas.height = H;
-    canvas.fillStyle = 'rgba(0,0,0,0.0)';
+    
 	
 	//snowflake particles
 	var mp = 25; //max particles
