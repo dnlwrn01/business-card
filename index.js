@@ -57,7 +57,7 @@ window.onload = function getDate() {
 	//Lets draw the flakes
 	function draw()
 	{
-		ctx.clearRect(0, 0, 100 + "vh", 100 + "vh");
+		ctx.clearRect(0, 0, W, H);
 		
 		
 		
