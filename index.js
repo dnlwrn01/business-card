@@ -31,12 +31,11 @@ window.onload = function getDate() {
 
 	//canvas init
 	var canvas = document.getElementById("canvas");
-    var htmlElement = document.getElementsByTagName("html")[0];
 	var ctx = canvas.getContext("2d");
 	
 	//canvas dimensions
 	var W = window.innerWidth;
-	var H = 2 * htmlElement.clientHeight;
+	var H = 2 * window.innerHeight;
 	canvas.width = W;
 	canvas.height = H;
     
