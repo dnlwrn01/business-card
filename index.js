@@ -38,7 +38,6 @@ window.onload = function(){
 	//canvas dimensions
 	var W = window.innerWidth;
 	var H = window.innerHeight;
-    canvas.fillStyle = 'rgba(0,0,0,0.0)';
 	canvas.width = W;
 	canvas.height = H;
     
@@ -60,6 +59,7 @@ window.onload = function(){
 	//Lets draw the flakes
 	function draw()
 	{
+        ctx.fillStyle = 'rgba(0,0,0,0.0)';
 		ctx.clearRect(0, 0, W, H);
 		
 		
