@@ -28,9 +28,7 @@ window.onload = function getDate() {
         progress.style.width = percentComplete + "%";
         document.getElementById("launchday").innerText = String(daysDifference);
     }
-}
 
-window.onload = function(){
 	//canvas init
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
@@ -52,7 +50,7 @@ window.onload = function(){
 			y: Math.random()*H, //y-coordinate
 			r: Math.random()*4+1, //radius
 			d: Math.random()*mp, //density
-            color: "rgba(" + Math.floor((Math.random() * 255)) +", " + Math.floor((Math.random() * 255)) +", " + Math.floor((Math.random() * 255)) + ", 1)"
+            color: "rgba(255,255,255,0.8)"
 		})
 	}
 	
