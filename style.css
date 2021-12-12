@@ -74,14 +74,14 @@ a {
 }
 
 #progressbar {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .1);
   border-radius: 9px;
   /* (height of inner div) / 2 + padding */
   padding: 3px;
 }
 
 #progressbar>div {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, .4);
   width: 5%;
   /* Adjust with JavaScript */
   height: 20px;
